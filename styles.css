@@ -14,7 +14,7 @@ body {
 }
 
 .container{
-    height: 535px;
+    height: 490px;
 }
 
 .header-text{
@@ -99,7 +99,7 @@ ul {
     border:0cap;
 }
 
-/* Main section display flex work here */
+/* container section display flex work here */
 
 .header-text{
     display: flex;
@@ -117,12 +117,38 @@ ul {
 .flow-images{
     display: flex;
     height: 175px;
-    width: 175px;
+    width: 170px;
     border: 4px solid rgb(48, 142, 237);
     border-radius: 15px;
     margin-bottom: 5px;
 }
 
 .i-text{
-    max-width: 200px;
+    max-width: 170px;
+    text-align: center;
+}
+
+/* quote section code here */
+
+.thor{
+    height: 450px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote{
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    max-width: 800px;
+}
+.author{
+
+    margin-left: 500px;
+    font-size:x-large;
+    font-weight: bold;
 }
