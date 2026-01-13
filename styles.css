@@ -13,6 +13,16 @@ body {
     height: 550px;
 }
 
+.container{
+    height: 535px;
+}
+
+.header-text{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
 .website {
     font-size: 48px;
     font-weight: 900;
@@ -87,4 +97,32 @@ ul {
     margin-top: 14px;
     border-radius: 7px;
     border:0cap;
+}
+
+/* Main section display flex work here */
+
+.header-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.flow-images{
+    display: flex;
+    height: 175px;
+    width: 175px;
+    border: 4px solid rgb(48, 142, 237);
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+
+.i-text{
+    max-width: 200px;
 }
